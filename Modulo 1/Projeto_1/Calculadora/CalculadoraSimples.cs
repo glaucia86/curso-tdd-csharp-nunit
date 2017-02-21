@@ -13,8 +13,7 @@
 
         public int Multiplicar(int num1, int num2)
         {
-            //Para fins de demo (bug) => return num1 * num2
-            return num1 + num2;
+            return num1 * num2;
         }
     }
 }
