@@ -2,12 +2,10 @@
 {
     public class JuntarNomes
     {
-        /* Método principal correspondente a Juntar 
-         * o Nome + Sobrenome */
+        /* Método principal para Juntar: nome + sobrenome  */
         public string Juntar(string nome, string sobrenome)
         {
             return nome + " " + sobrenome;
-            //Saída: Glaucia Lemos
         }
     }
 }

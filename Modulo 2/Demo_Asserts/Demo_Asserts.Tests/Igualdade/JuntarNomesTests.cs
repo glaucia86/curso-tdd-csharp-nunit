@@ -5,19 +5,18 @@ namespace Demo_Asserts.Tests.Igualdade
     [TestFixture]
     public class JuntarNomesTests
     {
-        /* Método de teste - finalidade: Comparar duas strings iguais */
+        /* Método responsável por juntar duas strings */
         [Test]
         public void DevoJuntarNomeCompleto()
         {
-           var sut = new JuntarNomes();
+            var sut = new JuntarNomes();
 
-           var nomeCompleto = sut.Juntar("Glaucia", "Lemos");
+            var nomeCompleto = sut.Juntar("Glaucia", "Lemos");
 
-           Assert.That(nomeCompleto, Is.EqualTo("Glaucia Lemos"));
+            Assert.That(nomeCompleto, Is.EqualTo("Glaucia Lemos"));
         }
 
-
-        /* Método de teste - finalidade: Comparar strings em case sensitive */
+        /* Método responsável por juntar duas strings - case sensitive */
         [Test]
         public void DevoJuntarNomeCompleto_CaseSensitive()
         {
@@ -28,7 +27,7 @@ namespace Demo_Asserts.Tests.Igualdade
             Assert.That(nomeCompleto, Is.EqualTo("GLAUCIA LEMOS").IgnoreCase);
         }
 
-        /* Método de teste - finalidade: Comparar strings diferentes */
+        /* Método responsável por juntar duas strings - quando strings não são iguais */
         [Test]
         public void DevoJuntarNomeCompleto_NaoIgual()
         {
