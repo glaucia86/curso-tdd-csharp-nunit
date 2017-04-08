@@ -44,7 +44,7 @@ namespace Demo_Asserts
         }
 
         /* Método responsável por gerar nomes dos jogadores de maneira randômica */
-        public string GerarNome()
+        private string GerarNome()
         {
             var nomes = new[]
             {
