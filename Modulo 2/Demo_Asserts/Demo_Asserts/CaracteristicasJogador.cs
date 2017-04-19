@@ -63,10 +63,13 @@ namespace Demo_Asserts
         {
             Armas = new List<string>()
             {
-                "Espada Grande",
-                "Espada Curta",
-                "Escudo",
-                "Arco"
+                "Agilidade",
+                "Agilidade Força",
+                "Força",
+                //"Força",
+                "Inteligência Artificial",               
+                "Teia de Aranha",
+                //"Voar"
             };
         }
     }
