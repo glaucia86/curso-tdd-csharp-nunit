@@ -50,6 +50,7 @@
     <Compile Include="Igualdade\JuntarNomesTests.cs" />
     <Compile Include="Intervalos\CaracteristicasJogadorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Referencias\CaracteristicasJogadorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
