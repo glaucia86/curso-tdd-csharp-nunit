@@ -36,7 +36,7 @@ namespace Demo_Asserts.Tests.Excecoes
 
         [Test]
         //Método de teste que irá verificar a condição se o número dividido é maior do que cem e
-        //também o parâmetro informado
+        //também o parâmetro informado no método principal
         public void DeveRetornarErroQuandoNumeroMaiorDoQueCem_MelhorCaso()
         {
             var sut = new Calculadora();
