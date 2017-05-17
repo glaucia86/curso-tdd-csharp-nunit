@@ -16,7 +16,6 @@ namespace Demo_Asserts
             return num1 + num2;
         }
 
-
         /* Método para Dividir */
         public int Dividir(int num, int por)
         {

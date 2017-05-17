@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BoleanosNulos\CaracteristicasJogadorTests.cs" />
     <Compile Include="Colecoes\CaracteristicasJogadorTests.cs" />
+    <Compile Include="Excecoes\CalculadoraTests.cs" />
     <Compile Include="Igualdade\CalculadoraTests.cs" />
     <Compile Include="Igualdade\DatasEspeciaisStoreTests.cs" />
     <Compile Include="Igualdade\JuntarNomesTests.cs" />
