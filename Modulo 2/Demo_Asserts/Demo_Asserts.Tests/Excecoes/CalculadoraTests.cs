@@ -7,7 +7,7 @@ namespace Demo_Asserts.Tests.Excecoes
     public class CalculadoraTests
     {
         [Test]
-        //Método de Teste que permite verificar se o número for dividido por zero deverá retornar uma exceção
+        //Método de Teste que permite verificar se o número for dividido por zero deverá retornar uma exceção.
         public void DeveRetornarErroQuandoDividirPorZero()
         {
             var sut = new Calculadora();
@@ -17,7 +17,7 @@ namespace Demo_Asserts.Tests.Excecoes
 
         [Test]
         //Método de teste que irá verificar o tipo de exceção que está sendo retornada quando o 
-        //número for dividido por zero.
+        //número for dividido por zero.. 
         public void DeveRetornarErroQuandoDividirPorZero_MelhorCaso()
         {
             var sut = new Calculadora();
@@ -26,7 +26,7 @@ namespace Demo_Asserts.Tests.Excecoes
         }
        
         [Test]
-        //Método de teste que irá verificar a condição se o número dividido é maior do que cem
+        //Método de teste que irá verificar a condição se o número dividido é maior do que cem. 
         public void DeveRetornarErroQuandoNumeroMaiorDoQueCem()
         {
             var sut = new Calculadora();
